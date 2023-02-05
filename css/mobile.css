@@ -1,0 +1,64 @@
+@media screen and (max-width: 1399px){
+    .carta .cartaBlock .info-block{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .carta .cartaBlock .info-block .item{
+        grid-row: span 1;
+        height: 350px;
+    }
+    .carta .cartaBlock .info-block .itemCarta {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 995px){
+.aboutUs .aboutUsBlock .info-block .item{
+    font-size: 12px;
+}
+.aboutUs .aboutUsBlock .info-block .item .imgBlock img{
+    width: 125%;
+}
+
+ .aboutUs .aboutUsBlock .info-block .item .text{
+    padding: 17px 30px;
+
+}
+/* .aboutUs .aboutUsBlock .info-block .item{
+    gap: 100px;
+} */
+.footer .footer{
+    padding: 15px 10px;
+}
+footer .footer .info-block .block{
+    padding-left: 0px;
+    margin-right: 60px;
+}
+footer .footer .info-block .blocka{
+    margin-left: 60px;
+}
+.footer .footer .info-block .blocka{
+    gap: 10px;
+}
+.aboutUs .aboutUsBlock .info-block .item .imgBlock img{
+        width: 100%;
+}
+}
+@media screen and (max-width: 991px){
+.menu .priceBlock .item{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu .priceBlock .item .imgBlock img{
+    width: 400px;
+    object-fit: fill;
+    gap: 15px;
+}
+}
+@media screen and (max-width: 768px){
+.header .header nav ul{
+    font-size: 20px;
+    gap: 5px;
+}
+
+}
